@@ -1,0 +1,90 @@
+body {
+	background-image: url(/Images/backgroundTea.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.LoginContainer {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	height: 700px;
+}
+
+input {
+	display: block;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #2e7d32; /* darker green */
+	padding: 10px;
+	color: #2e7d32; /* seagreen shade */
+	font-size: 16px;
+	cursor: pointer;
+	width: 200px;
+	transition: 0.5s;
+}
+
+input:hover {
+	width: 300px;
+	border-bottom: 2px solid #1b5e20; /* deeper green on hover */
+}
+
+.user {
+	width: 50%;
+	background-color: #fff7ed; /* light cream tone */
+}
+
+.admin {
+	background: linear-gradient(to right, #e8f5e9, #c8e6c9); /* soft green gradient */
+	width: 50%;
+}
+
+.user,
+.admin {
+	font-size: 20px;
+	letter-spacing: 0.1px;
+	color: #4e5d6c; /* soft slate gray */
+}
+
+.content {
+	position: relative;
+	left: 250px;
+	top: 200px;
+}
+
+strong {
+	border: 1px solid #4e342e; /* dark brown */
+	padding: 5px;
+	background-color: #6d4c41; /* medium warm brown */
+	color: #fffde7; /* light cream */
+	border-radius: 5px;
+}
+
+.loginButton {
+	position: relative;
+	left: 60px;
+	border: 2px solid #388e3c; /* mid-green */
+	cursor: pointer;
+	color: #388e3c;
+	background-color: #f1f8e9; /* very light green */
+	font-weight: bold;
+	padding: 5px;
+	width: 100px;
+	transition: 0.4s ease;
+}
+
+.loginButton:hover {
+	width: 120px;
+	border-radius: 6px;
+	color: white;
+	background-color: #2e7d32; /* green hover */
+}
+
+.admin h2,
+.user h2 {
+	margin-top: 5px;
+	color: #2e7d32; /* unify heading color */
+}
